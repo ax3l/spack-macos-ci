@@ -2,7 +2,6 @@ language: python
 
 jobs:
   include:
-    # and a build for old macOS versions (10.13 with xcode9.4.1 ~2017)
     - os: osx
       language: shell
       python: 3.6
