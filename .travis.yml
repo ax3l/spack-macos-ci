@@ -7,7 +7,7 @@ jobs:
       python: 3.6
 
 install:
-  - git clone https://github.com/spack/spack.git
+  - git clone --branch topic-emacsMoreDeps https://github.com/ax3l/spack.git
   - . spack/share/spack/setup-env.sh
   - spack install emacs
 
