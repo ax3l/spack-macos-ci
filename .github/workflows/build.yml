@@ -16,9 +16,16 @@ jobs:
 #      with:
 #        python-version: '3.6'
 
+    - name: Install GCC with brew
+      run: |
+        gcc-9 --version || echo "no GCC yet"
+        brew install gcc
+        gcc-9 --version || echo "still no GCC o.0"
+
     - name: Install spack and a package
       run: |
         git clone https://github.com/spack/spack.git
         . spack/share/spack/setup-env.sh
-        spack install python
+        spack compilers
+        spack install python %gcc@9.3.0
 
