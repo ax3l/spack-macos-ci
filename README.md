@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.com/ax3l/spack-emacs.svg?branch=master)](https://travis-ci.com/ax3l/spack-emacs)
+![spack macOS Python](https://github.com/ax3l/spack-emacs/workflows/spack%20macOS%20Python/badge.svg?branch=macos-spack-python)
 
-
-See [`.travis.yml`](.travis.yml) file.
+See GitHub Actions in `.github/workflows/` please.
