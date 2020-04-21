@@ -27,5 +27,5 @@ jobs:
         git clone https://github.com/spack/spack.git
         . spack/share/spack/setup-env.sh
         spack compilers
-        spack install python %gcc@9.3.0
+        spack install glib %gcc@9.3.0
 
